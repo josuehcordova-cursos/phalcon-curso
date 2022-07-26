@@ -5,6 +5,9 @@ class IndexController extends ControllerBase
 
     public function indexAction()
     {
+        $this->assets->addCss("css/app.css");
+        $this->assets->addJs("js/app.js");
+        
         $this->view->msg = "Nuevo mensaje";
 
         $this->view->setVars([
