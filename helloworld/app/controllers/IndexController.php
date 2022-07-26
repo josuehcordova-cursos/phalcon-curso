@@ -13,6 +13,8 @@ class IndexController extends ControllerBase
                     "Curso angular", "Curso php"
             ]
         ]);
+
+        $this->view->users = Users::find();
     }
 
 }

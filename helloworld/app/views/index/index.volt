@@ -12,3 +12,8 @@
 {% for curso in  cursos %}
     <p> {{ curso }}</p>
 {% endfor %}
+
+<h2>Usuarios</h2>
+{% for user in  users %}
+    <p> Username: {{ user.username }}, email: {{ user.email }}</p>
+{% endfor %}
