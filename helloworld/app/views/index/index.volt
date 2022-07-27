@@ -17,3 +17,9 @@
 {% for user in  users %}
     <p> Username: {{ user.username }}, email: {{ user.email }}</p>
 {% endfor %}
+
+{{ tag_html("h2", ["class":"text-center text-muted"]) }}
+Clase Tags de Volt
+{{ tag_html_close("h2") }}
+
+{{ stylesheet_link("css/index.css") }}
