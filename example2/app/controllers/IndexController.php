@@ -8,12 +8,12 @@ class IndexController extends ControllerBase
 
     }
 
-    public function sidebarAction(){
-        
+    public function loginAction(){
+        echo "login";
     }
 
-    public function loginAction(){
-        echo "Login";
+    public function testAction(){
+        echo "test";
     }
 }
 
